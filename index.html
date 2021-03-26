@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tic-Tac-Toe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="https://images-na.ssl-images-amazon.com/images/I/41Yj12sPTtL.png" type="image/jpg">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Brand/logo -->
+
+    <a class="navbar-brand" href="#">
+      <img src="https://image.flaticon.com/icons/png/512/1177/1177409.png" width="40" height="40" class="d-inline-block align-top" alt="">
+      Tic-Tac-Toe
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#play">Play</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#games">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <div class="header">
+    <div class="row">
+      <div class="col">
+        <img src="https://i.pinimg.com/originals/08/76/47/0876479dd728a4555ef519eb5d346419.png" width="300px">
+      </div>
+      <div class="vl"></div>
+      <div class="col">
+        <p>
+          Tic Tac Toe - the best, calsic funny game Tic Tac Toe. Don't waste paper and play on your smartphone or tablet on this ecologic game! - This game is simple and professional
+        </p>
+        <button type="button" href="#conn" class="btn btn-outline-secondary">Contact Us</button>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+
+    <div class="about">
+      <img src="https://ecdn.teacherspayteachers.com/thumbitem/Tic-Tac-Toe-Bingo-Solutions-5159272-1578854576/original-5159272-1.jpg" width="300px" height="300px">
+    </div>
+
+    <!--board-->
+    <div class="board" id="play">
+
+      <div class="on-light">
+        <button id="restart" class="border-gradient border-gradient-purple">
+          RESTART
+        </button>
+      </div>
+      <div class="row r ">
+        <div class="col c" data-i=0 data-j=0></div>
+        <div class="col c" data-i=0 data-j=1></div>
+        <div class="col c" data-i=0 data-j=2></div>
+      </div>
+
+      <div class="row r">
+        <div class="col c" data-i=1 data-j=0></div>
+        <div class="col c" data-i=1 data-j=1></div>
+        <div class="col c" data-i=1 data-j=2></div>
+      </div>
+
+      <div class="row r">
+        <div class="col c" data-i=2 data-j=0></div>
+        <div class="col c" data-i=2 data-j=1></div>
+        <div class="col c" data-i=2 data-j=2></div>
+      </div>
+
+    </div>
+    <!--end board-->
+
+    <h1>Similar games</h1>
+    <div class="container simi" id="games">
+      <div class="row">
+        <div class="col">
+          <a href="https://www.hangmanwords.com/play">
+            <img src="https://slides.atmegame.com/slide/4511_slide.jpeg" class="game" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://play.google.com/store/apps/details?id=yio.tro.antiyoy.android&hl=en&gl=US">
+            <img src="https://play-lh.googleusercontent.com/3KBx_152OWa82VpXrviFj3bHwx132Zq3I5YKpK7b3F-uC3ullErLmDRais1YK5cc6A" class="game" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <img src="https://static01.nyt.com/images/2020/07/09/sports/00Scrabble-ART/00Scrabble-ART-superJumbo.jpg" class="game" />
+          </a>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col">
+          <a href="">
+            <img src="https://img1.cgtrader.com/items/735817/3aa0e0e731/carrom-3d-model-max.jpg" class="game" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png" class="game" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <img src="https://cdn.toucharcade.com/wp-content/uploads/2013/04/mzl.kaxckikp.jpg" class="game" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <br /><br /><br />
+
+
+  <!-- Footer -->
+  <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <h5>I'm footer</h5>
+                  <div class="row">
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="">Home</a></li>
+                              <li><a href="">Games</a></li>
+                              <li><a href="">PLay</a></li>
+                              <li><a href="">About us</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="https://www.web-eau.net/blog/10-best-footer-html-css-snippets">Referens</a></li>
+                              <li><a href="https://www.youtube.com/watch?v=ra2_rKV0mDE&list=LL&index=12&t=510s">Another R</a></li>
+                              <li><a href="">Aslo Ref</a></li>
+                              <li><a href="">Last Ref</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                  <br>
+              </div>
+
+
+
+              <div class="col-md-2">
+                  <h5 class="text-md-right">Contact Us</h5>
+                  <hr>
+              </div>
+              <div class="col-md-5">
+                  <form id="conn">
+                      <fieldset class="form-group">
+                          <input type="email" class="form-control" placeholder="Enter email">
+                      </fieldset>
+                      <fieldset class="form-group">
+                          <textarea class="form-control"  placeholder="Message/feedback"></textarea>
+                      </fieldset>
+                      <button>
+                          SEND
+                      </button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
